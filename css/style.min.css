@@ -781,21 +781,12 @@ body.ie ._ibg img {
 */
 .page {
   background-color: #000000;
-  background-image: radial-gradient(circle farthest-corner, #414141 0%, #000000 74%);
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
 }
 
 * {
   margin: 0;
   padding: 0;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
 }
 
 .list {
@@ -822,6 +813,12 @@ main {
 
 .navigation__body {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
 }
 .navigation__row {
   display: -webkit-inline-box;
