@@ -874,7 +874,6 @@ body.ie ._ibg img {
 }
 .about__body {
   text-align: center;
-  min-height: 100vh;
 }
 .about__row {
   display: -webkit-inline-box;
