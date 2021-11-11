@@ -23,7 +23,6 @@
 	
 </header>
 			<main class="page">
-				<button class="back-to-top"> <i class="fas fa-chevron-up"></i></button>
 				<div class="navigation__body">
 					<div class="navigation__row">
 						<div class="navigation__column">
@@ -94,6 +93,7 @@
 						</div>
 					</div>
 				</div>
+				<button onclick='window.scrollTo({top: 0, behavior: "smooth"});' class="toTop"><img src="img/icons/up1.png" alt=""></button>
 
 				<div class="skills" id="skills">
 					
@@ -135,27 +135,6 @@
 <script src="js/app.min.js"></script>
 <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script>
-    $(document).ready(function(){
-        $(window).scroll(function(){
-            if($(window).scrollTop() > 300){
-                $('i').css({
-                    "opacity":"1", "pointer-events":"auto"
-                });
-            }else{
-                $('i').css({
-                    "opacity":"0", "pointer-events":"none"
-                });
-            }
-        });
-        $('i').click(function(){
-            $('html').animate({scrollTop:0}, 500);
-        });
-    });
-
-</script>
 	</body>
 </html>
 
