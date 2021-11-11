@@ -829,6 +829,7 @@ body.ie ._ibg img {
   border-radius: 8px;
   transform: scale(1);
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .list:hover {
@@ -869,6 +870,7 @@ body.ie ._ibg img {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 1px 20px;
   -webkit-box-decoration-break: clone;
+  cursor: default;
 }
 
 .about {
@@ -899,6 +901,7 @@ body.ie ._ibg img {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
+  cursor: default;
 }
 .about__icon {
   width: 92px;
