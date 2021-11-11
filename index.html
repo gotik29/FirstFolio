@@ -139,21 +139,22 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
     $(document).ready(function(){
-    $(window).scroll(function(){
-        if($(window).scrollTop() > 300){
-            $('i').css({
-                "opacity":"1", "point-events":"auto"
-            });
-        } else{
-            $('i').css({
-                "opacity":"0", "point-events":"none"
-            });
-        }
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 300){
+                $('i').css({
+                    "opacity":"1", "pointer-events":"auto"
+                });
+            }else{
+                $('i').css({
+                    "opacity":"0", "pointer-events":"none"
+                });
+            }
+        });
+        $('i').click(function(){
+            $('html').animate({scrollTop:0}, 500);
+        });
     });
-    $('i').click(function(){
-        $('html').animate({scrollTop:0}, 500)
-    });
-});
+
 </script>
 	</body>
 </html>
