@@ -844,11 +844,10 @@ body.ie ._ibg img {
   display: -moz-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin: 0 -15px;
 }
 .navigation__column {
   flex: 0 1 33.333%;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .header-block__title {
