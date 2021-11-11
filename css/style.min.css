@@ -786,7 +786,8 @@ body.ie ._ibg img {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
-  background-color: transparent;
+  background: linear-gradient(to right, #000000 0%, #434343 74%);
+  background-size: 200% 200%;
   border-radius: 10px;
 }
 
