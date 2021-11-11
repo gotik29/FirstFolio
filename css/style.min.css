@@ -780,8 +780,12 @@ body.ie ._ibg img {
 }
 */
 .wrapper {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  background: #41295a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
 }
@@ -847,7 +851,9 @@ body.ie ._ibg img {
   line-height: 2;
   color: #fff;
   border-radius: 12px;
-  background-color: #535353;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 1px 20px;
   -webkit-box-decoration-break: clone;
 }
