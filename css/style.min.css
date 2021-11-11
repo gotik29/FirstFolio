@@ -825,6 +825,7 @@ body.ie ._ibg img {
   background: #000000;
   letter-spacing: 0.1rem;
   border: 1px solid #E5E5E5;
+  border-radius: 8px;
   transform: scale(1);
   transition: all 0.2s;
 }
@@ -853,7 +854,7 @@ body.ie ._ibg img {
 }
 .navigation__column {
   flex: 0 1 33.333%;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .header-block__title {
