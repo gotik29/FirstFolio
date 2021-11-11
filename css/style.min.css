@@ -783,12 +783,6 @@ body.ie ._ibg img {
   display: none;
 }
 
-@-moz-document url-prefix() {
-  /* Disable scrollbar Firefox */
-  html {
-    scrollbar-width: none;
-  }
-}
 .wrapper {
   background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #434343 74%);
