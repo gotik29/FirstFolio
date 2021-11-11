@@ -837,25 +837,8 @@ body.ie ._ibg img {
   margin: 0 -15px;
 }
 .navigation__column {
-  margin: 0 0 30px 0;
   flex: 0 1 33.333%;
   padding: 0 15px;
-}
-
-.buttons {
-  padding: 50px 0 0 0;
-}
-
-.left {
-  border: 1px solid #fff;
-  border-radius: 50%;
-  padding: 10px 20px 15px 12px;
-}
-
-.right {
-  border: 1px solid #fff;
-  border-radius: 50%;
-  padding: 10px 12px 15px 20px;
 }
 
 .header-block__title {
@@ -874,6 +857,7 @@ body.ie ._ibg img {
 }
 .about__body {
   text-align: center;
+  height: 100vh;
 }
 .about__row {
   display: -webkit-inline-box;
@@ -922,11 +906,6 @@ body.ie ._ibg img {
   font-weight: 300;
   line-height: 26px;
   margin: 40px;
-}
-
-.information {
-  padding-bottom: 500px;
-  padding-top: 100px;
 }
 
 #info {

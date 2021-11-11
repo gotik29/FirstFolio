@@ -17,9 +17,6 @@
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-	<head>
-		<script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
-	</head>
 	<body>
 		<div class="wrapper">
 			<header class="header">
@@ -34,7 +31,7 @@
 									<span>information</span>
 								</div>
 							</a>
-							<a href="skills.html" class="list__btn btn btn_g">
+							<a onclick="document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
 								<div class="list">
 									<span>skills</span>
 								</div>
@@ -65,8 +62,8 @@
 					</div>
 				</div>
 
-				<div class="information">
-					<div class="about" id="info">
+				<div class="information" id="info">
+					<div class="about">
 						<div class="container">
 							<div class="about__header"  >
 								<p class="header-block__title">Vitaliy Eroshin</p>
@@ -78,7 +75,7 @@
 							<div class="about__column">
 							<div class="about__item" data-tilt data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5">
 								<div class="about__icon">
-								<img src="img/Information/profile-user.svg" alt="">
+								<img src="img/Information/info_01.png" alt="">
 								</div>
 								<div class="about__title">Information about me</div>
 								<div class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reprehenderit odio illo pariatur aspernatur saepe neque! Architecto, aut consectetur! Debitis.</div>
@@ -87,7 +84,7 @@
 							<div class="about__column">
 							<div class="about__item" data-tilt data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5">
 								<div class="about__icon">
-								<img src="img/Information/personal-data.svg" alt="">
+								<img src="img/Information/info_02.png" alt="">
 								</div>
 								<div class="about__title">Contact links</div>
 								<div class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia reprehenderit illum vero perspiciatis placeat repellendus quae modi aspernatur quaerat?</div>
@@ -97,8 +94,8 @@
 					</div>
 				</div>
 
-				<div class="skills">
-					
+				<div class="skills" id="skills">
+					<h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia fuga reprehenderit laudantium modi, tempore ex illo mollitia quis facere, dolorum corrupti at dolores totam id dignissimos temporibus? Molestiae et commodi, nesciunt neque doloribus iste, provident in maxime voluptatum quod incidunt. Commodi accusamus repellat eaque quis error dolorum provident placeat atque, aliquid animi a maiores obcaecati modi consectetur iusto dolores ipsa totam ad officiis reprehenderit eos. Repellendus expedita laudantium illo consequatur obcaecati voluptas perferendis culpa laboriosam. Nam vitae dignissimos corporis qui! Est tempora ab enim quam fugiat voluptate illo placeat voluptates accusamus laudantium possimus molestias, iusto totam. Deleniti optio laudantium ex numquam repudiandae, excepturi sit, qui repellendus atque quibusdam veniam accusamus. Ex consequuntur maxime sed dolor quam ipsum nostrum, tempora labore culpa laudantium necessitatibus, blanditiis numquam? Soluta fuga tenetur incidunt. Assumenda nostrum illum ullam ab, aperiam explicabo magni obcaecati eos maiores ad aut sint voluptatum ex delectus eum tenetur dicta similique facere ut sed fugiat accusantium neque corporis. Eius optio sapiente, in nam repellat aut id incidunt nulla sint magni quo nemo! Quod deserunt ex consequuntur laborum iste optio rerum inventore distinctio debitis dolores! Molestiae doloribus magnam iste facilis, voluptas quia expedita asperiores esse amet aliquam ipsam. Possimus eos ea dolor expedita suscipit cumque et quam consequuntur sit error corrupti excepturi quisquam sapiente, labore officia itaque, repellendus amet earum ducimus quasi nisi, architecto rem. Suscipit dolor hic facere maiores, ipsa fugit eligendi non architecto, reprehenderit beatae vitae eum facilis? Illo suscipit cum, et eveniet ut sit architecto earum fugit atque rem, saepe debitis! Blanditiis exercitationem dolor voluptas aperiam, quae reprehenderit architecto dolore dolores ipsam cum tempore nihil provident sapiente debitis sunt harum! Non illum nulla deserunt et, dicta fugit, blanditiis quaerat voluptatibus corrupti rerum consequuntur rem nesciunt laboriosam, in quidem magni itaque porro soluta temporibus eius reprehenderit optio corporis vitae quis! Saepe, inventore. Eius deserunt reprehenderit debitis assumenda maxime, asperiores illum quisquam, nemo facilis modi repudiandae animi. Accusamus autem tempora vero ipsum quam error praesentium facilis culpa impedit sint laboriosam maxime pariatur quod, recusandae hic. Dolorem harum nulla perspiciatis repellat architecto suscipit quam cumque deleniti voluptatem totam quo ipsum reprehenderit eaque corrupti esse beatae quis quaerat dignissimos quidem, exercitationem cupiditate perferendis accusamus officiis veritatis. Dolores dolore tenetur impedit maiores vel quaerat odio, quas at natus voluptate nam libero voluptates magnam nulla excepturi exercitationem corporis aliquam saepe provident minima ratione tempore totam accusamus ducimus. Error, omnis. Omnis optio itaque reiciendis ratione at.</h1>
 				</div>
 
 			</main>
@@ -135,6 +132,7 @@
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script>
+<script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
 	</body>
 </html>
