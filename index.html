@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
     <link rel="manifest" href="img/favicons/site.webmanifest">
     <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
@@ -23,6 +24,7 @@
 	
 </header>
 			<main class="page">
+				<!--Main-block-->
 				<section class="navigation__body">
 					<div class="navigation__row">
 						<div class="navigation__column">
@@ -36,24 +38,24 @@
 									<span>skills</span>
 								</div>
 							</a>
-							<a href="education.html" class="list__btn btn btn_g">
+							<a onclick="document.querySelector('#education').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
 								<div class="list">
 									<span>education</span>
 								</div>
 							</a>
 						</div>
 						<div class="navigation__column">
-							<a href="achivements.html" class="list__btn btn btn_g">
+							<a onclick="document.querySelector('#achivements').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
 								<div class="list">
 									<span>achivements</span>
 								</div>
 							</a>
-							<a href="activities.html" class="list__btn btn btn_g">
+							<a onclick="document.querySelector('#activities').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
 								<div class="list">
 									<span>activities</span>
 								</div>
 							</a>
-							<a href="projects.html" class="list__btn btn btn_g">
+							<a onclick="document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
 								<div class="list">
 					  				<span>projects</span>
 								</div>
@@ -62,6 +64,7 @@
 					</div>
 				</section>
 
+				<!--Information-block-->
 				<section class="information" id="info">
 					<div class="info">
 						<div class="container">
@@ -95,6 +98,7 @@
 				</section>
 				<button onclick='window.scrollTo({top: 0, behavior: "smooth"});' class="toTop"><img class="hover" src="img/icons/up1.png" alt=""></button>
 				
+				<!--Skills-block-->
 				<section class="skills__body" id="skills">
 					<div class="skills__content" data-scroll>
 						<h2 class="skills__title">Section One text block reveal</h2>
@@ -104,6 +108,32 @@
 						<br><br>Perferendis dignissimos explicabo enim quis aspernatur ad praesentium veritatis, at optio unde quod non minima voluptas quisquam, vel facilis saepe reprehenderit voluptates et.</p>
 					</div>
 				</section>
+
+				<!--Education-block-->
+				<section class="education" id="education"></section>	
+					<div class="swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+
+							<!-- Slides -->
+							<div class="swiper-slide">Slide 1</div>
+							<div class="swiper-slide">Slide 2</div>
+							<div class="swiper-slide">Slide 3</div>
+							<div class="swiper-slide">Slide 4</div>
+							<div class="swiper-slide">Slide 5</div>
+							<div class="swiper-slide">Slide 6</div>
+						</div>
+
+						<!-- Pagination -->
+						<div class="swiper-pagination"></div>
+					
+						<!-- Navigation buttons -->
+						<div class="swiper-button-prev">
+							
+						</div>
+						
+						<div class="swiper-button-next"></div>
+					</div>
 			</main>
 			<footer class="footer">
 	<div class="container">
@@ -141,10 +171,35 @@
 <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script>
     ScrollOut({
         targets: 'h2, h3, p'
     })
+</script>
+<script>
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'progressbar',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  autoplay: {
+    delay: 3000, 
+  },
+  speed: 800,
+});
 </script>
 	</body>
 </html>
