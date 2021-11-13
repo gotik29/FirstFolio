@@ -823,6 +823,7 @@ body.ie ._ibg img {
   border-radius: 50%;
   cursor: pointer;
   transition: 0.5s;
+  z-index: 10000;
 }
 
 .toTop:hover {
@@ -878,7 +879,7 @@ body.ie ._ibg img {
   display: inline-block;
   font-size: 28px;
   line-height: 2;
-  color: #fff;
+  color: #E5E5E5;
   border-radius: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -935,10 +936,10 @@ body.ie ._ibg img {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 3.52;
-  color: #fff;
+  color: #E5E5E5;
 }
 .about__text {
-  color: #fff;
+  color: #E5E5E5;
   font-size: 14px;
   font-weight: 300;
   line-height: 26px;
@@ -953,4 +954,92 @@ body.ie ._ibg img {
 img {
   -webkit-filter: invert(0.75);
   filter: invert(0.75);
+}
+
+.skills__body {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E5E5;
+}
+.skills__content {
+  max-width: 80%;
+}
+.skills__title {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 3em;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+.skills__title:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e02bff;
+  transform-origin: right;
+  transition: 0.5s;
+}
+.skills__sub-title {
+  position: relative;
+  margin: 5px 0 40px 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 2em;
+  transition: 0.5s;
+  transform-origin: right;
+  transform: scaleX(0);
+}
+.skills__sub-title:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffeb3b;
+  transform-origin: left;
+  transition: 0.5s;
+}
+.skills__main-txt {
+  font-size: 1.2em;
+  transition: 1s;
+  opacity: 0;
+}
+
+h2[data-scroll=in] {
+  transform: scaleX(1);
+}
+
+h2[data-scroll=in]:before {
+  transform: scaleX(0);
+  transition-delay: 0.5s;
+}
+
+[data-scroll=out] {
+  opacity: 0;
+  transform: translateX(-200);
+}
+
+h3[data-scroll=in] {
+  transform: scaleX(1);
+  transition-delay: 1s;
+}
+
+h3[data-scroll=in]:before {
+  transform: scaleX(0);
+  transition-delay: 1.5s;
+}
+
+p[data-scroll=in] {
+  opacity: 1;
+  transition-delay: 1s;
 }
