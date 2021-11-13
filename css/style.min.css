@@ -875,6 +875,10 @@ body.ie ._ibg img {
   padding: 0 5px;
 }
 
+.information {
+  height: 100vh;
+}
+
 .header-block__title {
   display: inline-block;
   font-size: 28px;
