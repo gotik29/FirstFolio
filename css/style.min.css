@@ -876,7 +876,6 @@ body.ie ._ibg img {
 }
 
 .information {
-  width: 100%;
   height: 100vh;
 }
 
@@ -900,7 +899,6 @@ body.ie ._ibg img {
 
 .about__body {
   text-align: center;
-  height: 100vh;
 }
 .about__row {
   display: -webkit-inline-box;
