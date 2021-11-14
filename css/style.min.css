@@ -877,6 +877,7 @@ body.ie ._ibg img {
 
 .information {
   height: 100vh;
+  width: 100%;
 }
 
 .header-block__title {
