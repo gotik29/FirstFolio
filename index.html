@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="ru">
-	 <head>
+   <head>
 	<title>Home</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
@@ -18,130 +18,238 @@
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-	<body>
-		<div class="wrapper">
-			<header class="header">
+  <body>
+    <div class="wrapper">
+      <header class="header">
 	
 </header>
-			<main class="page">
-				<!--Main-block-->
-				<section class="navigation__body">
-					<div class="navigation__row">
-						<div class="navigation__column">
-							<a onclick="document.querySelector('#info').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
-								<div class="list">
-									<span>information</span>
-								</div>
-							</a>
-							<a onclick="document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
-								<div class="list">
-									<span>skills</span>
-								</div>
-							</a>
-							<a onclick="document.querySelector('#education').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
-								<div class="list">
-									<span>education</span>
-								</div>
-							</a>
-						</div>
-						<div class="navigation__column">
-							<a onclick="document.querySelector('#achivements').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
-								<div class="list">
-									<span>achivements</span>
-								</div>
-							</a>
-							<a onclick="document.querySelector('#activities').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
-								<div class="list">
-									<span>activities</span>
-								</div>
-							</a>
-							<a onclick="document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });" class="list__btn btn btn_g">
-								<div class="list">
-					  				<span>projects</span>
-								</div>
-							</a>
-						</div>
-					</div>
-				</section>
+      <main class="page">
+        <!--Main-block-->
+        <section class="navigation__body">
+          <div class="navigation__row">
+            <div class="navigation__column">
+              <a
+                onclick="document.querySelector('#info').scrollIntoView({ behavior: 'smooth' });"
+                class="list__btn btn btn_g"
+              >
+                <div class="list">
+                  <span>information</span>
+                </div>
+              </a>
+              <a
+                onclick="document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' });"
+                class="list__btn btn btn_g"
+              >
+                <div class="list">
+                  <span>skills</span>
+                </div>
+              </a>
+              <a
+                onclick="document.querySelector('#education').scrollIntoView({ behavior: 'smooth' });"
+                class="list__btn btn btn_g"
+              >
+                <div class="list">
+                  <span>education</span>
+                </div>
+              </a>
+            </div>
+            <div class="navigation__column">
+              <a
+                onclick="document.querySelector('#achivements').scrollIntoView({ behavior: 'smooth' });"
+                class="list__btn btn btn_g"
+              >
+                <div class="list">
+                  <span>achivements</span>
+                </div>
+              </a>
+              <a
+                onclick="document.querySelector('#activities').scrollIntoView({ behavior: 'smooth' });"
+                class="list__btn btn btn_g"
+              >
+                <div class="list">
+                  <span>activities</span>
+                </div>
+              </a>
+              <a
+                onclick="document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });"
+                class="list__btn btn btn_g"
+              >
+                <div class="list">
+                  <span>projects</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
 
-				<!--Information-block-->
-				<section class="information" id="info">
-					<div class="info">
-						<div class="container">
-							<div class="about__header">
-								<div class="header-block__title">Vitaliy Eroshin</div>
-							</div>
-						</div>
-					</div>
-					<div class="about__body">
-						<div class="about__row">
-							<div class="about__column">
-							<div class="about__item" data-tilt data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5">
-								<div class="about__icon">
-								<img src="img/Information/info_01.png" alt="">
-								</div>
-								<div class="about__title">Information about me</div>
-								<div class="about__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis obcaecati accusantium velit, tempora eius quisquam iure eaque asperiores aspernatur dolorem, nostrum amet vitae ratione quae! Ut hic perferendis qui deleniti?</div>
-							</div>
-							</div>
-							<div class="about__column">
-							<div class="about__item" data-tilt data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5">
-								<div class="about__icon">
-								<img src="img/Information/info_02.png" alt="">
-								</div>
-								<div class="about__title">Contact links</div>
-								<div class="about__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis obcaecati accusantium velit, tempora eius quisquam iure eaque asperiores aspernatur dolorem, nostrum amet vitae ratione quae! Ut hic perferendis qui deleniti?</div>
-							</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<button onclick='window.scrollTo({top: 0, behavior: "smooth"});' class="toTop"><img class="hover" src="img/icons/up1.png" alt=""></button>
-				
-				<!--Skills-block-->
-				<section class="skills__body" id="skills">
-					<div class="skills__content" data-scroll>
-						<h2 class="skills__title">Section One text block reveal</h2>
-						<br>
-						<h3 class="skills__sub-title">Text block reveal on page scroll</h3>
-						<p class="skills__main-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloremque laudantium omnis sapiente nisi magnam earum fuga explicabo nam dignissimos voluptatibus, doloribus ipsum illo id ipsa aut voluptatem assumenda deserunt, optio rerum ea inventore! Omnis at tenetur sunt iusto, quis ducimus consequatur nemo inventore est provident similique!
-						<br><br>Perferendis dignissimos explicabo enim quis aspernatur ad praesentium veritatis, at optio unde quod non minima voluptas quisquam, vel facilis saepe reprehenderit voluptates et.</p>
-					</div>
-				</section>
+        <!--Information-block-->
+        <section class="information" id="info">
+          <div class="info">
+            <div class="container">
+              <div class="about__header">
+                <div class="header-block__title">Vitaliy Eroshin</div>
+              </div>
+            </div>
+          </div>
+          <div class="about__body">
+            <div class="about__row">
+              <div class="about__column">
+                <div
+                  class="about__item"
+                  data-tilt
+                  data-tilt-speed="400"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                >
+                  <div class="about__icon">
+                    <img src="img/Information/info_01.png" alt="" />
+                  </div>
+                  <div class="about__title">Information about me</div>
+                  <div class="about__text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quis obcaecati accusantium velit, tempora eius quisquam iure
+                    eaque asperiores aspernatur dolorem, nostrum amet vitae
+                    ratione quae! Ut hic perferendis qui deleniti?
+                  </div>
+                </div>
+              </div>
+              <div class="about__column">
+                <div
+                  class="about__item"
+                  data-tilt
+                  data-tilt-speed="400"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                >
+                  <div class="about__icon">
+                    <img src="img/Information/info_02.png" alt="" />
+                  </div>
+                  <div class="about__title">Contact links</div>
+                  <div class="about__text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quis obcaecati accusantium velit, tempora eius quisquam iure
+                    eaque asperiores aspernatur dolorem, nostrum amet vitae
+                    ratione quae! Ut hic perferendis qui deleniti?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <button
+          onclick='window.scrollTo({top: 0, behavior: "smooth"});'
+          class="toTop"
+        >
+          <img class="hover" src="img/icons/up1.png" alt="" />
+        </button>
 
-				<!--Education-block-->
-				<section class="education" id="education"></section>	
-					<div class="swiper">
-						<!-- Additional required wrapper -->
-						<div class="swiper-wrapper">
+        <!--Skills-block-->
+        <section class="skills__body" id="skills">
+          <div class="skills__content" data-scroll>
+            <h2 class="skills__title">Section One text block reveal</h2>
+            <br />
+            <h3 class="skills__sub-title">Text block reveal on page scroll</h3>
+            <p class="skills__main-txt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              doloremque laudantium omnis sapiente nisi magnam earum fuga
+              explicabo nam dignissimos voluptatibus, doloribus ipsum illo id
+              ipsa aut voluptatem assumenda deserunt, optio rerum ea inventore!
+              Omnis at tenetur sunt iusto, quis ducimus consequatur nemo
+              inventore est provident similique! <br /><br />Perferendis
+              dignissimos explicabo enim quis aspernatur ad praesentium
+              veritatis, at optio unde quod non minima voluptas quisquam, vel
+              facilis saepe reprehenderit voluptates et.
+            </p>
+          </div>
+        </section>
 
-							<!-- Slides -->
-							<div class="swiper-slide">Slide 1</div>
-							<div class="swiper-slide">Slide 2</div>
-							<div class="swiper-slide">Slide 3</div>
-							<div class="swiper-slide">Slide 4</div>
-							<div class="swiper-slide">Slide 5</div>
-							<div class="swiper-slide">Slide 6</div>
-						</div>
+        <!--Education-block-->
+        <section class="education" id="education">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="title">Lorem, ipsum.</div>
+                <div class="text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title">Lorem, ipsum.</div>
+                <div class="text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title">Lorem, ipsum.</div>
+                <div class="text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title">Lorem, ipsum.</div>
+                <div class="text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title">Lorem, ipsum.</div>
+                <div class="text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="title">Lorem, ipsum.</div>
+                <div class="text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+            </div>
 
-						<!-- Pagination -->
-						<div class="swiper-pagination"></div>
-					
-						<!-- Navigation buttons -->
-						<div class="swiper-button-prev">
-							
-						</div>
-						
-						<div class="swiper-button-next"></div>
-					</div>
-			</main>
-			<footer class="footer">
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+        <!--Section-block-->
+        <section class="achivements" id="achivements"></section>
+      </main>
+      <footer class="footer">
 	<div class="container">
 		
 	</div>
 </footer>
-		</div>
-		<div class="popup popup_popup">
+    </div>
+    <div class="popup popup_popup">
 	<div class="popup__content">
 		<div class="popup__body">
 			<div class="popup__close"></div>
@@ -163,8 +271,7 @@
 		</div>
 	</div>
 </div>
-
-		<!-- Swiper -->
+ <!-- Swiper -->
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script>
@@ -201,7 +308,5 @@ const swiper = new Swiper('.swiper', {
   speed: 800,
 });
 </script>
-	</body>
+  </body>
 </html>
-
-
