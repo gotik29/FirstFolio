@@ -1112,22 +1112,6 @@ p[data-scroll=in] {
   animation: animate-b-reverse 10s linear infinite;
 }
 
-@keyframes animate-b {
-  0% {
-    background-position: 0;
-  }
-  100% {
-    background-position: 1360px;
-  }
-}
-@keyframes animate-b-reverse {
-  0% {
-    background-position: 1360px;
-  }
-  100% {
-    background-position: 0;
-  }
-}
 .achivements {
   position: relative;
   width: 100%;
