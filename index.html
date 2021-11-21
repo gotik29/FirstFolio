@@ -240,8 +240,26 @@
             <div class="swiper-button-next"></div>
           </div>
         </section>
+
         <!--Section-block-->
-        <section class="achivements" id="achivements"></section>
+        <section class="achivements" id="achivements">
+          <div class="wave-a"></div>
+          <div class="achivements1__content">
+            <div class="achivements1__title">Section One text block reveal</div>
+            <div class="achivements1__txt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              doloremque laudantium omnis sapiente nisi magnam earum fuga
+              explicabo nam dignissimos voluptatibus, doloribus ipsum illo id
+              ipsa aut voluptatem assumenda deserunt, optio rerum ea inventore!
+              Omnis at tenetur sunt iusto, quis ducimus consequatur nemo
+              inventore est provident similique! Perferendis dignissimos
+              explicabo enim quis aspernatur ad praesentium veritatis, at optio
+              unde quod non minima voluptas quisquam, vel facilis saepe
+              reprehenderit voluptates et.
+            </div>
+          </div>
+          <div class="wave-b"></div>
+        </section>
       </main>
       <footer class="footer">
 	<div class="container">
@@ -275,38 +293,45 @@
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script>
-<script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+<script
+  defer
+  src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
+></script>
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script>
-    ScrollOut({
-        targets: 'h2, h3, p'
-    })
+  ScrollOut({
+    targets: "h2, h3, p",
+  });
 </script>
 <script>
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+  const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'progressbar',
-    clickable: true,
-  },
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+      clickable: true,
+    },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  autoplay: {
-    delay: 3000, 
-  },
-  speed: 800,
-});
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+      delay: 3000,
+    },
+    speed: 800,
+  });
 </script>
+
   </body>
 </html>
