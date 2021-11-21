@@ -1175,6 +1175,7 @@ p[data-scroll=in] {
   }
 }
 .achivements1__content {
+  max-width: 80%;
   color: #e5e5e5;
   cursor: default;
   padding: 40vh 80px 0 130px;
