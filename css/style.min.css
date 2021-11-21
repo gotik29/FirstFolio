@@ -1090,6 +1090,44 @@ p[data-scroll=in] {
   padding: 0 80px 0 130px;
 }
 
+.wave-b1 {
+  position: absolute;
+  width: 100%;
+  height: 143px;
+  bottom: 0;
+  left: 0;
+  background-image: url(/img/achivements/wave_b.png);
+  animation: animate-b 10s linear infinite;
+}
+
+.wave-b1::before {
+  content: "";
+  width: 100%;
+  height: 143px;
+  background-image: url(/img/achivements/wave_b.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  animation: animate-b-reverse 10s linear infinite;
+}
+
+@keyframes animate-b {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 1360px;
+  }
+}
+@keyframes animate-b-reverse {
+  0% {
+    background-position: 1360px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
 .achivements {
   position: relative;
   width: 100%;
@@ -1103,7 +1141,7 @@ p[data-scroll=in] {
   top: 0;
   left: 0;
   background-image: url(/img/achivements/wave_a.png);
-  animation: animate-a 7s linear infinite;
+  animation: animate-a 10s linear infinite;
 }
 
 .wave-a::before {
@@ -1115,7 +1153,7 @@ p[data-scroll=in] {
   top: 0;
   left: 0;
   opacity: 0.4;
-  animation: animate-a-reverse 7s linear infinite;
+  animation: animate-a-reverse 10s linear infinite;
 }
 
 @keyframes animate-a {
