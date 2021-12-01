@@ -191,7 +191,7 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide">
+              <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
                 <div class="text">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
@@ -202,7 +202,7 @@
                 </div>
                 <div class="wave-b1"></div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
                 <div class="text">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
@@ -213,7 +213,7 @@
                 </div>
                 <div class="wave-b1"></div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
                 <div class="text">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
@@ -224,7 +224,7 @@
                 </div>
                 <div class="wave-b1"></div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
                 <div class="text">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
@@ -235,7 +235,7 @@
                 </div>
                 <div class="wave-b1"></div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
                 <div class="text">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
@@ -246,7 +246,7 @@
                 </div>
                 <div class="wave-b1"></div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
                 <div class="text">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
@@ -290,7 +290,83 @@
         </section>
 
         <!--Activities-block-->
-        <section class="activities"></section>
+        <section class="activities" id="activities">
+          <div class="wave-a"></div>
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slideA swiper-slide">
+                <div class="titleA">Lorem, ipsum.</div>
+                <div class="textA">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slideA swiper-slide">
+                <div class="titleA">Lorem, ipsum.</div>
+                <div class="textA">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slideA swiper-slide">
+                <div class="titleA">Lorem, ipsum.</div>
+                <div class="textA">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slideA swiper-slide">
+                <div class="titleA">Lorem, ipsum.</div>
+                <div class="textA">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slideA swiper-slide">
+                <div class="titleA">Lorem, ipsum.</div>
+                <div class="textA">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+              <div class="swiper-slideA swiper-slide">
+                <div class="titleA">Lorem, ipsum.</div>
+                <div class="textA">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
+                  dicta quia culpa accusantium commodi odio error accusamus eos
+                  vero, voluptates deleniti, corrupti praesentium molestiae
+                  placeat facilis aut similique! Nihil rerum illum vitae.
+                  Aspernatur odit laborum doloremque, totam voluptatem iste qui.
+                </div>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination1"></div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev1"></div>
+
+            <div class="swiper-button-next1"></div>
+          </div>
+        </section>
       </main>
       <footer class="footer">
 	<div class="container">
@@ -333,14 +409,13 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
 ></script>
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script>
   ScrollOut({
     targets: "h2, h3, p",
   });
 </script>
 <script>
-  const swiper = new Swiper(".swiper", {
+  var swiper = new Swiper(".swiper", {
     // Optional parameters
     direction: "horizontal",
     loop: true,
@@ -361,6 +436,21 @@
       delay: 3000,
     },
     speed: 800,
+  });
+
+  var swiper = new Swiper(".swiper-container", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    loop: true,
   });
 </script>
 
