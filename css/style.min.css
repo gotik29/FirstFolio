@@ -1020,6 +1020,7 @@ img {
   transition: 0.5s;
 }
 .skills__main-txt {
+  line-height: 1.5;
   font-size: 1.2em;
   transition: 1s;
   opacity: 0;
@@ -1202,7 +1203,6 @@ p[data-scroll=in] {
 }
 .achivements1__content {
   color: #e5e5e5;
-  cursor: text;
   padding: 35vh 130px 0 130px;
   cursor: default;
 }
@@ -1213,6 +1213,7 @@ p[data-scroll=in] {
 .achivements1__txt {
   font-size: 1.2em;
   line-height: 26px;
+  line-height: 1.5;
 }
 
 .activities {
