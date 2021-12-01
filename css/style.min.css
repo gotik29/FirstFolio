@@ -960,6 +960,11 @@ img {
   filter: invert(0.75);
 }
 
+::selection {
+  background-color: #ee6352;
+  color: white;
+}
+
 .skills__body {
   position: relative;
   width: 100%;
@@ -968,7 +973,6 @@ img {
   justify-content: center;
   align-items: center;
   color: #e5e5e5;
-  cursor: default;
 }
 .skills__content {
   max-width: 80%;
@@ -1011,7 +1015,7 @@ img {
   left: 0;
   width: 100%;
   height: 112%;
-  background: #ee6611;
+  background: #ee6352;
   transform-origin: left;
   transition: 0.5s;
 }
@@ -1075,7 +1079,7 @@ p[data-scroll=in] {
 }
 
 .swiper-pagination-progressbar-fill {
-  border: 2px solid #ee6611;
+  border: 2px solid #ee6352;
   border-radius: 7px;
 }
 
@@ -1198,7 +1202,7 @@ p[data-scroll=in] {
 }
 .achivements1__content {
   color: #e5e5e5;
-  cursor: default;
+  cursor: text;
   padding: 35vh 130px 0 130px;
   cursor: default;
 }
