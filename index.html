@@ -2,7 +2,7 @@
 
 <html lang="ru">
   <head>
-  <title>Home</title>
+  <title>Portfolio</title>
   <meta charset="UTF-8" />
   <meta name="format-detection" content="telephone=no" />
   <link rel="stylesheet" href="css/style.min.css" />
@@ -194,7 +194,6 @@
                   placeat facilis aut similique! Nihil rerum illum vitae.
                   Aspernatur odit laborum doloremque, totam voluptatem iste qui.
                 </div>
-                <div class="wave-b1"></div>
               </div>
               <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
@@ -205,7 +204,6 @@
                   placeat facilis aut similique! Nihil rerum illum vitae.
                   Aspernatur odit laborum doloremque, totam voluptatem iste qui.
                 </div>
-                <div class="wave-b1"></div>
               </div>
               <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
@@ -216,7 +214,6 @@
                   placeat facilis aut similique! Nihil rerum illum vitae.
                   Aspernatur odit laborum doloremque, totam voluptatem iste qui.
                 </div>
-                <div class="wave-b1"></div>
               </div>
               <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
@@ -227,7 +224,6 @@
                   placeat facilis aut similique! Nihil rerum illum vitae.
                   Aspernatur odit laborum doloremque, totam voluptatem iste qui.
                 </div>
-                <div class="wave-b1"></div>
               </div>
               <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
@@ -238,7 +234,6 @@
                   placeat facilis aut similique! Nihil rerum illum vitae.
                   Aspernatur odit laborum doloremque, totam voluptatem iste qui.
                 </div>
-                <div class="wave-b1"></div>
               </div>
               <div class="swiper-slideE swiper-slide">
                 <div class="title">Lorem, ipsum.</div>
@@ -249,7 +244,6 @@
                   placeat facilis aut similique! Nihil rerum illum vitae.
                   Aspernatur odit laborum doloremque, totam voluptatem iste qui.
                 </div>
-                <div class="wave-b1"></div>
               </div>
             </div>
 
@@ -260,6 +254,7 @@
             <div class="swiper-button-prev"></div>
 
             <div class="swiper-button-next"></div>
+            <div class="wave-b1"></div>
           </div>
         </section>
 
@@ -361,6 +356,8 @@
             <div class="swiper-button-next1"></div>
           </div>
         </section>
+
+        <section class="activities" id="projects"></section>
       </main>
       <footer class="footer">
   <div class="container">
@@ -393,29 +390,32 @@
 		</div>
 	</div>
 </div>
- <!-- Swiper -->
-<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
-<script src="js/vendors.min.js"></script>
+ <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script>
+<!--Smoothscroll-->
 <script
   defer
   src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
 ></script>
+<!--VanillaTilt-->
 <script
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
 ></script>
+<!--Scroll-out-->
 <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 <script>
   ScrollOut({
     targets: "h2, h3, p",
   });
 </script>
+<!--Jquery-->
 <script
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"
 ></script>
+<!--BackToTop btn-->
 <script>
   document.addEventListener("mousemove", (e) => parallax(e));
 
@@ -444,6 +444,7 @@
     });
   });
 </script>
+<!--Swiper-->
 <script>
   var swiper = new Swiper(".swiper", {
     // Optional parameters
