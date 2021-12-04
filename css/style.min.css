@@ -1018,12 +1018,12 @@ p[data-scroll=in] {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  cursor: grab;
 }
 
 .swiper-slideE {
   font-size: 18px;
   color: #e5e5e5;
-  cursor: default;
   background-position: center;
   background-size: cover;
   width: 320px;
@@ -1160,7 +1160,6 @@ p[data-scroll=in] {
 .achivements1__content {
   color: #e5e5e5;
   padding: 35vh 130px 0 130px;
-  cursor: default;
 }
 .achivements1__title {
   font-size: 3em;
@@ -1312,7 +1311,7 @@ p[data-scroll=in] {
 }
 
 .testimonial__gitLogo:hover {
-  background-color: rgba(100, 194, 158, 0.8);
+  background-color: #ee6352;
   border-radius: 0.5rem;
   opacity: 1;
   visibility: visible;
