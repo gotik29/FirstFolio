@@ -780,6 +780,27 @@ body.ie ._ibg img {
 	}
 }
 */
+.row {
+  text-align: center;
+  justify-content: center;
+  background: #242424;
+}
+
+.col {
+  padding: 30px 0 30px 0;
+  color: #e5e5e5;
+  font-size: 0.875rem;
+}
+
+.button {
+  color: #e5e5e5;
+  transition: 0.5s;
+}
+
+.button:hover {
+  color: #e02bff;
+}
+
 #scroll {
   position: fixed;
   right: 20px;
@@ -1275,7 +1296,6 @@ p[data-scroll=in] {
   border: 2px solid #a775f1;
 }
 
-/* components */
 .testimonial-grid {
   display: grid;
   gap: 1.5rem;
@@ -1311,7 +1331,7 @@ p[data-scroll=in] {
 }
 
 .testimonial__gitLogo:hover {
-  background-color: #ee6352;
+  background-color: #c86352;
   border-radius: 0.5rem;
   opacity: 1;
   visibility: visible;
